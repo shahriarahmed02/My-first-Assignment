@@ -3,6 +3,7 @@
     padding: 0;
         box-sizing: border-box;
 }
+/* navigation-bar  */
 .top-header {
     width: 100%;
     padding: 20px 0;
@@ -38,6 +39,7 @@
 .navigationbar-links a:hover {
   color: #469165;
 }
+/* My first button */
 .btn-nav{
   outline: none;
     border: none;
@@ -53,9 +55,10 @@
 }
 .btn-nav:hover{
   background-color: #059669;
-    transform: translateY(-2px);
+    transform: translateY(-2px); /* Took help from chatGPT */
   cursor: pointer;
 }
+/* Hero Banner Section */
 .hero-section {
  
     width: 100%;
@@ -71,10 +74,6 @@
        position: relative;
     text-align: center;
     color: white;
-
-
-
-
 }
 .Hero-badge{
     position: absolute;
@@ -152,9 +151,9 @@
 /* My-3rd-button */
 .btn-secondary {
   display: inline-flex;
-    background-color: transparent;
+    background-color: transparent;/* Took help from chatGPT */
     color: white;
-    border: 1px solid rgba(255, 255, 255, 0.3); 
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Took help from chatGPT */
     padding: 14px 28px;
     border-radius: 8px;
     font-weight: 600;
@@ -162,7 +161,7 @@
     display: inline-flex;
     align-items: center;
     gap: 10px;
-    transition: 0.3s;
+    transition: 0.3s;/* Took help from chatGPT */
     white-space: nowrap;
 }
 .btn-secondary i {
@@ -171,9 +170,10 @@
 
 .btn-secondary:hover {
     background-color: #059669;
-    transform: translateY(-2px);
+    transform: translateY(-2px); /* Took help from chatGPT */
     cursor: pointer;
 }
+/* Card Section Styling */
 .Cards-intro {
     background-color: #ffffff;
     padding: 100px 20px;
@@ -200,7 +200,7 @@
 }
 .Cards-grid {
    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);/* Took help from chatGPT */
     gap: 40px;
     width: 100%;
 }
@@ -215,7 +215,7 @@
     padding-bottom: 70px;
     padding-top: 70px;
     
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.283);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.283);/* Took help from chatGPT */
     box-sizing: border-box;
 }
 .Cards-card img {
@@ -252,9 +252,10 @@
 }
 .Cards-card:hover{
   background-color: #44b9dd;
-    transform: translateY(-2px);
+    transform: translateY(-2px);/* Took help from chatGPT */
 
 }
+/* Feature Detail Section Styling */
 .feature-detail {
     background-color: #FFFFFF; 
     padding: 120px;
@@ -332,9 +333,9 @@
     width: 100%;
     height: auto;
     border-radius: 12px;
-    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.056);
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.056); /* Took help from chatGPT */
 }
-
+/* Challenge Section Styling */
 #challenge-section {
     padding: 80px 40px;
     background-color: #ffffff;
@@ -384,13 +385,13 @@
     align-items: center;
     gap: 10px;
     transition: background 0.3s ease;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);/* Took help from chatGPT */
     margin-bottom: -16px;
 }
 
 .challenge-button:hover {
     background-color: #059669;
-    transform: translateY(-2px);
+    transform: translateY(-2px);/* Took help from chatGPT */
     cursor: pointer;
 }
 
@@ -400,7 +401,7 @@
     line-height: 20px;
     color: #627382;
 }
-
+/* Footer Section Styling */
 #Final-footer {
     background-color: #001931; 
     color: #ffffff;
@@ -454,7 +455,7 @@
 
 .footer-divider {
     border: 0;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.1); /* Took help from chatGPT */
     margin-bottom: 30px;
 }
 
@@ -467,3 +468,4 @@
     line-height: 24px;
     color: #FAFAFA; 
 }
+/* My first achievement */
