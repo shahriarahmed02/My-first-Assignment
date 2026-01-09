@@ -131,6 +131,7 @@
 
 /* My-2nd-button */
 .btn-green {
+  display: inline-flex;
     background-color:#469165;
     color: white;
     padding: 14px 28px;
@@ -141,6 +142,7 @@
     align-items: center;
     gap: 10px;
     transition: 0.3s;
+    white-space: nowrap;
 }
 .btn-green:hover {
     background-color: #059669;
@@ -150,6 +152,7 @@
 
 /* My-3rd-button */
 .btn-secondary {
+  display: inline-flex;
     background-color: transparent;
     color: white;
     border: 1px solid rgba(255, 255, 255, 0.3); 
@@ -161,12 +164,97 @@
     align-items: center;
     gap: 10px;
     transition: 0.3s;
+    white-space: nowrap;
+}
+.btn-secondary i {
+    font-size: 14px;
 }
 
 .btn-secondary:hover {
     background-color: #059669;
     transform: translateY(-2px);
     cursor: pointer;
+}
+.Cards-intro {
+    background-color: #ffffff;
+    padding: 100px 20px;
+    text-align: center;
+   height: 448px;
+}
+
+.Cards-header h2 {
+    font-size: 40px;
+    font-weight: 700;
+    font-style: bold;
+    color: #001931; 
+    margin-bottom: 16px;
+}
+
+.Cards-header p {
+    color: #627382;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 700px;
+    margin: 0 auto 60px auto;
+    line-height: 20px;
+    margin-bottom: 44px;
+}
+.Cards-grid {
+   display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    width: 100%;
+}
+.Cards-card {
+
+  display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 16px;   
+    padding-bottom: 70px;
+    padding-top: 70px;
+    
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.283);
+    box-sizing: border-box;
+}
+.Cards-card img {
+    width: 24px;  
+    height: auto;
+        display: block;
+        align-items: center;
+      }
+      .Cards-card h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 8px;
+}
+
+.Cards-card p {
+    color: #4b5563;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 274px;
+    height: 40px;
+    text-align: center;
+    margin: 0 auto;
+}
+.icon-box-red {
+    width: 60px;
+    height: 60px;
+    background-color: #F95555;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.Cards-card:hover{
+  background-color: #44b9dd;
+    transform: translateY(-2px);
+
 }
 
 
